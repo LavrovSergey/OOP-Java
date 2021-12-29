@@ -1,0 +1,44 @@
+<dependencies>
+
+    <!-- add the junit dependency here -->
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.7.0</version>
+        <scope>test</scope>
+    </dependency>
+
+</dependencies>
+<Planes>
+    <Plane>
+        <id>841</id>
+        <model>ACAZ C.2</model>
+        <origin>Belgium</origin>
+        <Chars>
+            <type>fighter</type>
+            <seats>2</seats>
+            <radar>false</radar>
+        </Chars>
+        <Parameters>
+            <length>8</length>
+            <height>3</height>
+            <width>12</width>
+        </Parameters>
+    </Plane>
+    <Plane>
+        <id>111</id>
+        <model>Lockheed U-2</model>
+        <origin>US</origin>
+        <Chars>
+            <type>reconnaissance</type>
+            <seats>1</seats>
+            <radar>true</radar>
+        </Chars>
+        <Parameters>
+            <length>19</length>
+            <height>5</height>
+            <width>32</width>
+        </Parameters>
+    </Plane>
+</Planes>
+
